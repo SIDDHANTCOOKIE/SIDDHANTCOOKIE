@@ -1,22 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180px" height="680px" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="680" font-size="14">
 <style>
-@font-face {
-src: local('Consolas'), local('Consolas Bold');
-font-family: 'ConsolasFallback';
-font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
-}
-.key {fill: #953800;}
-.value {fill: #0a3069;}
-.addColor {fill: #1a7f37;}
-.delColor {fill: #cf222e;}
-.cc {fill: #c2cfde;}
-text, tspan {white-space: pre;}
+@font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%}
+.key{fill:#953800}.value{fill:#0a3069}.addColor{fill:#1a7f37}.delColor{fill:#cf222e}.cc{fill:#c2cfde}text,tspan{white-space:pre}
 </style>
-<rect width="1180px" height="680px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f" class="ascii">
+<rect width="1180" height="680" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f">
 <tspan x="15" y="30">++++*++=+**++**##*******#***+=+**##**+*+++++*+++**++**+******++**+++###****+*##=++++*-*+==++*+++++++</tspan>
 <tspan x="15" y="50">#**++**++++*****##****##*##*+++***##***++++++++++*++++++**+++++=+*######****%*++=====-++++++*++=++*+</tspan>
 <tspan x="15" y="70">*+**#+*****##****++***#*******+*###**+*+++**++++=====+=====--====+**+*###**+*++++==+==++++++*+****##</tspan>
@@ -44,8 +33,6 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="510">#*+***+%%%*%%#+%+=+*#*+++*+==+**++++*+*###*+=+#***###%%%%%%%######*==++##*=:::::#-=::::::::::::::::.</tspan>
 <tspan x="15" y="530">...................................................................................................</tspan>
 </text>
-
-<!-- RIGHT SIDE: placeholders will be replaced by update_stats.py -->
 <text x="680" y="30" fill="#24292f">
 <tspan x="680" y="30">__DISPLAY_NAME__</tspan> -———————————————————————————————————————————-—-
 <tspan x="680" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">__OS_TEXT__</tspan>
