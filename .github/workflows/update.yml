@@ -5,12 +5,17 @@ on:
     - cron: "0 0 * * *"   # runs daily at midnight UTC
   workflow_dispatch:      # manual trigger
 
+permissions:
+  contents: write   # ✅ allows commit & push using GITHUB_TOKEN
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -21,12 +26,18 @@ jobs:
         run: pip install requests jinja2
 
       - name: Run update script
+        env:
+          GITHUB_USERNAME: SIDDHANTCOOKIE
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_stats.py
+
+      - name: Show file changes (debug)
+        run: git status && git diff --stat
 
       - name: Commit & Push changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg
-          git commit -m "Update stats.svg" || echo "No changes"
-          git push
+          git add update_stats.svg
+          git commit -m "Update update_stats.svg" || echo "No changes"
+          git push origin HEAD:main   # 🔄 change 'main' → 'master' if your repo uses master
