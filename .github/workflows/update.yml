@@ -2,11 +2,11 @@ name: Update Profile Card
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight UTC
-  workflow_dispatch:      # manual trigger
-
-permissions:
-  contents: write   # ✅ allows commit & push using GITHUB_TOKEN
+    - cron: "0 0 * * *"   # daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -27,17 +27,19 @@ jobs:
 
       - name: Run update script
         env:
-          GITHUB_USERNAME: SIDDHANTCOOKIE
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_stats.py
 
-      - name: Show file changes (debug)
-        run: git status && git diff --stat
+      - name: Update README timestamp
+        run: |
+          date_str=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          sed -i "s|Last updated:.*|Last updated: $date_str|g" README.md
 
       - name: Commit & Push changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add update_stats.svg
-          git commit -m "Update update_stats.svg" || echo "No changes"
-          git push origin HEAD:main   # 🔄 change 'main' → 'master' if your repo uses master
+          git add update_stats.svg README.md
+          git diff --staged --quiet || git commit -m "Update profile stats"
+          git push
