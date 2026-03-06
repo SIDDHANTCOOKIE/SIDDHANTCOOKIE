@@ -8,14 +8,14 @@
 
 <img align="right" width=200px src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
 
-I am passionate about **Backend Development (FastAPI, Firebase)** and **AI Projects**.  
-I also explore **Finance & Technology** and build creative projects combining **AI + Blockchain + Web**.  
+I am passionate about **EVM**, **Backend Dev** and **GenAI**.  
+Been exploring **Defi** for a while now, Eth ftw!!!!!  
 I love to learn, experiment, and create projects that challenge me.
 
 - 💻 Currently working on:
-  - **ChainGuard** – AI + Web3 Security System  
-  - **EcoSentry AI** – Climate Hazard Detection  
-  - **BlockCoder** – AI-powered Competitive Coding
+  - **Paperly** - paperly0.vercel.app
+  - **Doxuflow** - doxu-flow.vercel.app
+  - **ChainGuard** – AI + Web3 Security System  (won eth bounty at ETHSF'25)
 - ⚡ Always curious to learn and explore new tech  
 
 ---
