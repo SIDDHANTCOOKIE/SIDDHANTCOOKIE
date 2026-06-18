@@ -7,17 +7,20 @@
 <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="35">&nbsp; ***About Me***
 
 <img align="right" width=200px src="https://media.tenor.com/XP4tw9P1yFoAAAAM/dedsec.gif"/>
- 
+<b>Kinda Obsessive about everything I do</b>
+
 I am passionate about **EVM**, **Backend Dev** and **GenAI**.  
 Been exploring **Defi** for a while now, Eth ftw!!!!!  
+CV: https://drive.google.com/file/d/1w8hEMrvuLSYpJ_kBHOfAO2JHLGv55zAp/view?usp=drive_link
+
 I love to learn, experiment, and create projects that challenge me.
 
-- 💻 Currently working on:
+💻 Currently working on:
   - ### Projects
      - **Paperly**: https://paperly0.vercel.app
      - **DoxuFlow**: https://doxu-flow.vercel.app
      - **ChainGuard** – AI + Web3 Security System  (won eth bounty at ETHSF'25)
-- ⚡ Always curious to learn and explore new tech  
+ 
 ---
 
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30">&nbsp; ***Tech Stack***
