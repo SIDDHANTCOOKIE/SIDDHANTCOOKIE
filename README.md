@@ -1,9 +1,9 @@
 <p align="center"><a href="#top"><img src="assets/header.gif" width="100%"></a></p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/siddhant">linkedin</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
+  <a href="https://x.com/siddhantcookie">x</a> &nbsp;·&nbsp;
   <a href="https://siddhant.tech">siddhant.tech</a> &nbsp;·&nbsp;
-  <a href="mailto:sk6917@srmist.edu.in">email</a> &nbsp;·&nbsp;
   <a href="https://drive.google.com/file/d/1w8hEMrvuLSYpJ_kBHOfAO2JHLGv55zAp/view?usp=drive_link">cv</a>
 </p>
 
@@ -20,7 +20,7 @@ kinda obsessive about everything i build
 
 <!-- contribution-quest:begin -->
 
-## ~/play
+## ~/quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
@@ -29,59 +29,19 @@ kinda obsessive about everything i build
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>100 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 &nbsp;the way of the mind</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-blade"><b>刃 &nbsp;the way of the blade</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 &nbsp;the way of the chain</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 &nbsp;the way of the scroll</b></a><br>
+<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 69</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 22</a><br>
 <sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>心 the way of the mind</b> - ai that shows its work</summary>
+<summary><b>心 the way of the mind</b> - ai that shows its work · <b>4 merged prs</b></summary>
 <a id="xp-mind"></a>
 <p align="center"><img src="assets/xp_mind.gif" width="560"></p>
-<p align="center">
-<a href="#user-content-xp-shrine-mind"><b>press on to the shrine →</b></a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
-</p>
-</details>
-
-<details name="xp">
-<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out</summary>
-<a id="xp-blade"></a>
-<p align="center"><img src="assets/xp_blade.gif" width="560"></p>
-<p align="center">
-<a href="#user-content-xp-shrine-blade"><b>press on to the shrine →</b></a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
-</p>
-</details>
-
-<details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch</summary>
-<a id="xp-chain"></a>
-<p align="center"><img src="assets/xp_chain.gif" width="560"></p>
-<p align="center">
-<a href="#user-content-xp-shrine-chain"><b>press on to the shrine →</b></a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
-</p>
-</details>
-
-<details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped</summary>
-<a id="xp-scroll"></a>
-<p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
-<p align="center">
-<a href="#user-content-xp-shrine-scroll"><b>press on to the shrine →</b></a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
-</p>
-</details>
-
-<details name="xp">
-<summary><b>⛩ shrine of the mind</b> - skillcheck &amp; own products</summary>
-<a id="xp-shrine-mind"></a>
-<p align="center"><i>ai that shows its work. every merged pr on that road:</i></p>
-<p align="center"><b>skillcheck, paperly &amp; research</b> · <b>4 merged prs</b></p>
+<p align="center"><b>skillcheck, paperly &amp; research</b></p>
 <p align="center">
 <sub><b>SIDDHANTCOOKIE/SkillCheck</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/SkillCheck/pull/2"><b>#2</b></a> Wired into graph.py so hook/install-triggered files are promoted to loadstage "unattended" before capability chains build · aug 14, 2026</sub><br>
@@ -93,15 +53,15 @@ kinda obsessive about everything i build
 <sub><b>SIDDHANTCOOKIE/DocuFlow</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/DocuFlow/pull/1"><b>#1</b></a> Updated index.html to add a Vite module entry script (&lt;script type="module" src="/index.tsx"&gt;&lt;/script&gt;) and removed the browser importmap that was… · feb 13, 2026</sub><br>
 <br>
-<sub><a href="#user-content-xp-map">↩ walk another path</a></sub>
+<sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>⛩ shrine of the blade</b> - smart-contract security</summary>
-<a id="xp-shrine-blade"></a>
-<p align="center"><i>vulnerabilities cut out of live codebases, wherever they hid:</i></p>
-<p align="center"><b>security work, merged upstream</b> · <b>5 merged prs</b></p>
+<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out · <b>5 merged prs</b></summary>
+<a id="xp-blade"></a>
+<p align="center"><img src="assets/xp_blade.gif" width="560"></p>
+<p align="center"><b>security work, merged upstream</b></p>
 <p align="center">
 <sub><b>StabilityNexus/HammerAuctionHouse-Solidity</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/HammerAuctionHouse-Solidity/pull/68"><b>#68</b></a> Addressed Issues: Fixes #66 Fixes English auction anti-sniping behavior by making deadline extension conditional instead of unconditional · mar 30, 2026</sub><br>
@@ -114,15 +74,15 @@ kinda obsessive about everything i build
 <sub><b>StabilityNexus/MiniChain</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/120"><b>#120</b></a> These fixes are essential for ensuring network stability, fund safety, and resistance against targeted DoS attacks · jul 15, 2026</sub><br>
 <br>
-<sub><a href="#user-content-xp-map">↩ walk another path</a></sub>
+<sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>⛩ shrine of the chain</b> - minichain &amp; web3</summary>
-<a id="xp-shrine-chain"></a>
-<p align="center"><i>chains, contracts and the tooling around them. every merged pr:</i></p>
-<p align="center"><b>web3 &amp; protocol engineering</b> · <b>69 merged prs</b></p>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>69 merged prs</b></summary>
+<a id="xp-chain"></a>
+<p align="center"><img src="assets/xp_chain.gif" width="560"></p>
+<p align="center"><b>web3 &amp; protocol engineering</b></p>
 <p align="center">
 <sub><b>StabilityNexus/MiniChain</b> · 43 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/136"><b>#136</b></a> Added a security policy with supported versions, reporting guidance, response expectations, and scope · aug 13, 2026</sub><br>
@@ -219,15 +179,15 @@ kinda obsessive about everything i build
 <sub><b>StabilityNexus/hodlCoin-Website</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/hodlCoin-Website/pull/32"><b>#32</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 25, 2026</sub><br>
 <br>
-<sub><a href="#user-content-xp-map">↩ walk another path</a></sub>
+<sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>⛩ shrine of the scroll</b> - the formstr suite</summary>
-<a id="xp-shrine-scroll"></a>
-<p align="center"><i>products and tools people use. every merged pr:</i></p>
-<p align="center"><b>formstr, aossie &amp; community</b> · <b>22 merged prs</b></p>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>22 merged prs</b></summary>
+<a id="xp-scroll"></a>
+<p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
+<p align="center"><b>formstr, aossie &amp; community</b></p>
 <p align="center">
 <sub><b>formstr-hq/formstr-drive</b> · 5 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/57"><b>#57</b></a> Download fixes Replaced the old useDownloader hook with a proper streaming pipeline (swStreamDownload.ts + public/sw.js) so large files write… · jul 21, 2026</sub><br>
@@ -269,7 +229,7 @@ kinda obsessive about everything i build
 <sub><b>formstr-hq/nostr-forms</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-forms/pull/481"><b>#481</b></a> This replaces the old external Geyser links with a smoother in-app NIP-57/LNURL flow · may 7, 2026</sub><br>
 <br>
-<sub><a href="#user-content-xp-map">↩ walk another path</a></sub>
+<sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
@@ -309,11 +269,12 @@ products i shipped and run live:
 ## ~/stack
 
 ```text
-langs    python · c++ · c · solidity · html/css
-ai/ml    pytorch · scikit-learn · langsmith · numpy · pandas
-web3     web3.py · evm · smart contracts · libp2p
-backend  fastapi · flask · celery · redis · mongodb
-tools    docker · git · firebase · gcp · ubuntu
+langs   python · typescript · javascript · solidity · go · c++ · c
+web     html/css · react · next.js · node.js · express · tailwind · vite
+ai/ml   pytorch · scikit-learn · langsmith · numpy · pandas
+web3    evm · smart contracts · web3.py · ethers.js · wagmi · hardhat · openzeppelin · libp2p
+backend fastapi · flask · celery · redis · mongodb
+tools   docker · git · firebase · gcp · ubuntu
 ```
 
 ## ~/stats
@@ -325,4 +286,5 @@ tools    docker · git · firebase · gcp · ubuntu
 
 
 <p align="center"><a href="#top"><img src="assets/footer.png" width="100%"></a></p>
+
 

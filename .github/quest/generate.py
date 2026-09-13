@@ -188,49 +188,36 @@ def repo_group(repo, prs):
     return "\n".join(lines)
 
 INTRO = {
-    "mind":   ("skillcheck, paperly &amp; research",
-               "ai that shows its work. every merged pr on that road:"),
-    "blade":  ("security work, merged upstream",
-               "vulnerabilities cut out of live codebases, wherever they hid:"),
-    "chain":  ("web3 &amp; protocol engineering",
-               "chains, contracts and the tooling around them. every merged pr:"),
-    "scroll": ("formstr, aossie &amp; community",
-               "products and tools people use. every merged pr:"),
+    "mind":   "skillcheck, paperly &amp; research",
+    "blade":  "security work, merged upstream",
+    "chain":  "web3 &amp; protocol engineering",
+    "scroll": "formstr, aossie &amp; community",
 }
-SHRINE_TITLE = {
-    "mind": "skillcheck &amp; own products",
-    "blade": "smart-contract security",
-    "chain": "minichain &amp; web3",
-    "scroll": "the formstr suite",
+KANJI = {"mind": "\u5fc3", "blade": "\u5203", "chain": "\u9396", "scroll": "\u5dfb"}
+TAGLINE = {
+    "mind": "ai that shows its work",
+    "blade": "cutting vulnerabilities out",
+    "chain": "a blockchain, built from scratch",
+    "scroll": "the formstr suite, shipped",
 }
+ORDER = ["mind", "blade", "chain", "scroll"]
 
-def shrine(path, prs):
+def path_block(path, prs):
     groups = {}
     for p in prs:
         groups.setdefault(p["repo"], []).append(p)
     ordered = sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0]))
-    head, sub = INTRO[path]
     body = "\n<br>\n".join(repo_group(r, ps) for r, ps in ordered)
+    n = len(prs)
     return f"""<details name="xp">
-<summary><b>⛩ shrine of the {path}</b> - {SHRINE_TITLE[path]}</summary>
-<a id="xp-shrine-{path}"></a>
-<p align="center"><i>{sub}</i></p>
-<p align="center"><b>{head}</b> · <b>{len(prs)} merged prs</b></p>
+<summary><b>{KANJI[path]} the way of the {path}</b> - {TAGLINE[path]} · <b>{n} merged prs</b></summary>
+<a id="xp-{path}"></a>
+<p align="center"><img src="assets/xp_{path}.gif" width="560"></p>
+<p align="center"><b>{INTRO[path]}</b></p>
 <p align="center">
 {body}
 <br>
-<sub><a href="#user-content-xp-map">↩ walk another path</a></sub>
-</p>
-</details>"""
-
-def scene(path, kanji, name, tagline):
-    return f"""<details name="xp">
-<summary><b>{kanji} the way of the {path}</b> - {tagline}</summary>
-<a id="xp-{path}"></a>
-<p align="center"><img src="assets/xp_{path}.gif" width="560"></p>
-<p align="center">
-<a href="#user-content-xp-shrine-{path}"><b>press on to the shrine →</b></a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
+<sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>"""
 
@@ -240,7 +227,10 @@ def render_section(prs):
         by_path[classify(p["repo"], p["number"], p["title"])].append(p)
     total = len(prs)
     counts = {k: len(v) for k, v in by_path.items()}
-    parts = [f"""## ~/play
+    nav = " &nbsp;·&nbsp;\n".join(
+        f'<a href="#user-content-xp-{p}"><b>{KANJI[p]} the way of the {p}</b> · {counts[p]}</a>'
+        for p in ORDER) + "<br>"
+    parts = [f"""## ~/quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
@@ -249,21 +239,11 @@ def render_section(prs):
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>{total} merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 &nbsp;the way of the mind</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-blade"><b>刃 &nbsp;the way of the blade</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 &nbsp;the way of the chain</b></a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 &nbsp;the way of the scroll</b></a><br>
+{nav}
 <sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
 </details>""",
-        scene("mind", "心", "mind", "ai that shows its work"),
-        scene("blade", "刃", "blade", "cutting vulnerabilities out"),
-        scene("chain", "鎖", "chain", "a blockchain, built from scratch"),
-        scene("scroll", "巻", "scroll", "the formstr suite, shipped"),
-        shrine("mind", by_path["mind"]),
-        shrine("blade", by_path["blade"]),
-        shrine("chain", by_path["chain"]),
-        shrine("scroll", by_path["scroll"]),
+        *(path_block(p, by_path[p]) for p in ORDER),
     ]
     return "\n\n".join(parts), counts
 
@@ -286,3 +266,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
