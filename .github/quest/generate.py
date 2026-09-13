@@ -79,6 +79,7 @@ def fetch_merged_prs(token):
                 "repo": repo,
                 "number": it["number"],
                 "title": it["title"].strip(),
+                "body": (it.get("body") or "").strip(),
                 "merged_at": merged[:10],
                 "url": f"https://github.com/{repo}/pull/{it['number']}",
             })
@@ -87,6 +88,8 @@ def fetch_merged_prs(token):
         page += 1
         time.sleep(2)
     prs.sort(key=lambda p: p["merged_at"], reverse=True)
+    for p in prs:
+        p["gist"] = gist(p, token)
     return prs
 
 # --- render ---------------------------------------------------------------
@@ -98,13 +101,85 @@ def fdate(iso):
 def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-def short(t, n=72):
-    t = re.sub(r"\s+", " ", t).strip()
-    return t if len(t) <= n else t[: n - 1].rstrip() + "…"
+def clean_pr_body(body):
+    """Turn PR-authored prose into readable text without trusting the title."""
+    body = re.sub(r"<!--.*?-->", " ", body or "", flags=re.DOTALL)
+    body = re.sub(r"```.*?```", " ", body, flags=re.DOTALL)
+    body = re.sub(r"<img\b[^>]*>|https?://\S+", " ", body, flags=re.IGNORECASE)
+    body = re.sub(r"(?m)^\s{0,3}#{1,6}\s*", "", body)
+    body = re.sub(r"(?m)^\s*[-*+]\s+", "", body)
+    body = re.sub(r"(?m)^\s*\d+[.)]\s+", "", body)
+    body = re.sub(r"\[[ xX]\]", " ", body)
+    body = re.sub(r"[*_`~]", "", body)
+    body = re.sub(r"\s+", " ", body).strip()
+    return body
+
+SKIP_PHRASES = (
+    "while ai can be", "submissions that do not meet", "my code follows",
+    "requesting review", "reviewer:", "type: feature", "breaking change",
+    "add screenshots", "screenshots/recordings", "additional notes",
+    "code style and conventions", "applicable, i have", "summary by coderabbit",
+    "fixes #(todo", "checkboxes:", "yes no", "current code on main",
+    "please take the time", "always read through", "i have used the following ai",
+    "contributions meet the task", "closed without warning", "checklist my pr",
+    "ai slop is", "may lead to banning", "by coderabbit", "do not spam our repos",
+)
+ACTION = re.compile(
+    r"\b(add(?:s|ed)?|fix(?:es|ed)?|implement(?:s|ed)?|replace(?:s|d)?|"
+    r"remove(?:s|d)?|refactor(?:s|ed)?|restore(?:s|d)?|introduce(?:s|d)?|"
+    r"migrate(?:s|d)?|prevent(?:s|ed)?|support(?:s|ed)?|update(?:s|d)?|"
+    r"change(?:s|d)?|allow(?:s|ed)?|create(?:s|d)?|build(?:s|t)?|"
+    r"resolve(?:s|d)?|ensure(?:s|d)?|cache(?:s|d)?|validate(?:s|d)?)\b",
+    re.IGNORECASE,
+)
+
+def meaningful_body_chunks(body):
+    text = clean_pr_body(body)
+    chunks = re.split(r"(?<=[.!?])\s+|\s*[;•]\s*", text)
+    ranked = []
+    for index, chunk in enumerate(chunks):
+        chunk = re.sub(r"^(?:this (?:pr|change)|the pr)\s+", "", chunk.strip(), flags=re.I)
+        chunk = re.sub(r"^(?:summary|description|overview|what changed|solution)\s*:?\s*", "", chunk, flags=re.I)
+        low = chunk.lower().strip(" :.-")
+        if len(low) < 18 or low in ("n/a", "none"):
+            continue
+        if any(x in low for x in SKIP_PHRASES) or not re.search(r"[a-zA-Z]{3}", chunk):
+            continue
+        score = (4 if ACTION.search(chunk) else 0)
+        score += (2 if 35 <= len(chunk) <= 240 else 0)
+        score += (1 if index < 8 else 0)
+        score -= (2 if chunk.count("@") > 1 else 0)
+        ranked.append((score, -index, chunk.strip(" -:;")))
+    ranked.sort(reverse=True)
+    return [x[2] for x in ranked]
+
+def fallback_gist(repo, number, token):
+    """Use changed file paths and commit messages when the PR body has no substance."""
+    base = f"https://api.github.com/repos/{repo}/pulls/{number}"
+    files = http_json(base + "/files?per_page=100", token)
+    commits = http_json(base + "/commits?per_page=100", token)
+    paths = [f.get("filename", "") for f in files if f.get("filename")]
+    messages = [c.get("commit", {}).get("message", "").split("\n", 1)[0]
+                for c in commits]
+    message_chunks = meaningful_body_chunks(". ".join(messages))
+    if message_chunks:
+        return message_chunks[0]
+    if paths:
+        shown = ", ".join(paths[:3])
+        extra = f" and {len(paths)-3} more" if len(paths) > 3 else ""
+        return f"Changed {shown}{extra}"
+    return "Updated the repository; open the PR for the exact diff"
+
+def gist(p, token):
+    chunks = meaningful_body_chunks(p.get("body", ""))
+    text = chunks[0] if chunks else fallback_gist(p["repo"], p["number"], token)
+    text = text[0].upper() + text[1:] if text else text
+    text = re.sub(r"\s+", " ", text).strip().rstrip(".")
+    return text if len(text) <= 150 else text[:149].rsplit(" ", 1)[0] + "…"
 
 def pr_line(p):
-    return (f'<sub><a href="{p["url"]}"><b>#{p["number"]}</b> {esc(short(p["title"]))}</a>'
-            f' · merged {fdate(p["merged_at"])}</sub><br>')
+    return (f'<sub><a href="{p["url"]}"><b>#{p["number"]}</b></a> '
+            f'{esc(p["gist"])} · {fdate(p["merged_at"])}</sub><br>')
 
 def repo_group(repo, prs):
     n = len(prs)
@@ -155,7 +230,7 @@ def scene(path, kanji, name, tagline):
 <p align="center"><img src="assets/xp_{path}.gif" width="560"></p>
 <p align="center">
 <a href="#user-content-xp-shrine-{path}"><b>press on to the shrine →</b></a><br>
-<sub><a href="assets/ronin-theme.mp3">♪ play the theme</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
+<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> &nbsp;·&nbsp; <a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>"""
 
@@ -178,7 +253,7 @@ def render_section(prs):
 <a href="#user-content-xp-blade"><b>刃 &nbsp;the way of the blade</b></a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 &nbsp;the way of the chain</b></a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 &nbsp;the way of the scroll</b></a><br>
-<sub><a href="assets/ronin-theme.mp3">♪ play the theme</a> - original instrumental, no autoplay</sub>
+<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
 </details>""",
         scene("mind", "心", "mind", "ai that shows its work"),
