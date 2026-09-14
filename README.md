@@ -1,4 +1,4 @@
-<p align="center"><a href="#top"><img src="assets/5-5-header-v3.gif" width="100%"></a></p>
+<p align="center"><a href="#top"><img src="assets/2-banner-v5.gif" width="100%"></a></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
@@ -27,9 +27,8 @@ kinda obsessive about everything i build
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
 <a id="xp-map"></a>
 
-https://github.com/user-attachments/assets/ca34406c-c111-4bfc-992c-5886b480b1a3
-
-<p align="center"><sub>▶ the way of the ronin soundtrack - press play, then unmute - GitHub blocks autoplay with sound</sub></p>
+<p align="center"><a href="https://github.com/user-attachments/assets/ca34406c-c111-4bfc-992c-5886b480b1a3"><img src="assets/xp_banner.gif" width="720"></a></p>
+<p align="center"><sub>▶ the way of the ronin soundtrack - tap the art to play with sound</sub></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>100 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
