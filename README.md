@@ -1,4 +1,4 @@
-<p align="center"><a href="#top"><img src="assets/header.gif" width="100%"></a></p>
+<p align="center"><a href="#top"><img src="assets/5-header-v2.gif" width="100%"></a></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
