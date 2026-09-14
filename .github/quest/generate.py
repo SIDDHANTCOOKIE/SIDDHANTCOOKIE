@@ -230,7 +230,7 @@ def render_section(prs):
     nav = " &nbsp;·&nbsp;\n".join(
         f'<a href="#user-content-xp-{p}"><b>{KANJI[p]} the way of the {p}</b> · {counts[p]}</a>'
         for p in ORDER) + "<br>"
-    parts = [f"""## Contributor Quest
+    parts = [f"""## Contribution Quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
@@ -240,8 +240,11 @@ def render_section(prs):
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>{total} merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 {nav}
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
+
+<p align="center"><b>▶ the ronin soundtrack</b><br><sub>press play, then unmute - GitHub blocks autoplay with sound</sub></p>
+
+https://github.com/user-attachments/assets/aee17682-201a-48a5-8fe9-6f6f02ac2a6a
 </details>""",
         *(path_block(p, by_path[p]) for p in ORDER),
     ]
@@ -266,4 +269,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

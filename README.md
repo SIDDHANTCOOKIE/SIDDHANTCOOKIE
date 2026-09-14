@@ -1,4 +1,4 @@
-<p align="center"><a href="#top"><img src="assets/header.gif" width="100%"></a></p>
+<p align="center"><a href="#top"><img src="assets/5-header-v2.gif" width="100%"></a></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
@@ -34,8 +34,11 @@ kinda obsessive about everything i build
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 69</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 22</a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme-v4.mp3">♪ the ronin soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
+
+<p align="center"><b>▶ the ronin soundtrack</b><br><sub>press play, then unmute - GitHub blocks autoplay with sound</sub></p>
+
+https://github.com/user-attachments/assets/aee17682-201a-48a5-8fe9-6f6f02ac2a6a
 </details>
 
 <details name="xp">
