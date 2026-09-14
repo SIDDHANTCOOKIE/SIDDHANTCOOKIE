@@ -10,7 +10,7 @@
 ## ~/about
 
 ```text
-cs (iot) @ srmist, class of '28
+cs ’28
 evm, backend & genai - defi native, eth ftw
 kinda obsessive about everything i build
 ```
@@ -20,7 +20,7 @@ kinda obsessive about everything i build
 
 <!-- contribution-quest:begin -->
 
-## My Contribution Quest
+## Contributor Quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
