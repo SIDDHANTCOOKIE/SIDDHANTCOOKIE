@@ -1,4 +1,4 @@
-<p align="center"><a href="#top"><img src="assets/header.gif" width="100%"></a></p>
+<p align="center"><a href="#top"><img src="assets/2-header.gif" width="100%"></a></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
@@ -287,5 +287,4 @@ tools   docker · git · firebase · gcp · ubuntu
 
 
 <p align="center"><a href="#top"><img src="assets/footer.png" width="100%"></a></p>
-
 
