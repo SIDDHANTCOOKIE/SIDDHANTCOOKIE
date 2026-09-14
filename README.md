@@ -20,7 +20,7 @@ kinda obsessive about everything i build
 
 <!-- contribution-quest:begin -->
 
-## ~/quest
+## My Contribution Quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
