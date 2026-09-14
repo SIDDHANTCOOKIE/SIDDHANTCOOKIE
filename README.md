@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/siddhantcookie">linkedin</a> &nbsp;·&nbsp;
   <a href="https://x.com/siddhantcookie">x</a> &nbsp;·&nbsp;
+  <a href="mailto:siddhantkk27@gmail.com">mail</a> &nbsp;·&nbsp;
   <a href="https://siddhant.tech">siddhant.tech</a> &nbsp;·&nbsp;
   <a href="https://drive.google.com/file/d/1w8hEMrvuLSYpJ_kBHOfAO2JHLGv55zAp/view?usp=drive_link">cv</a>
 </p>
