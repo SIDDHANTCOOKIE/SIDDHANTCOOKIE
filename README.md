@@ -21,7 +21,7 @@ kinda obsessive about everything i build
 
 <!-- contribution-quest:begin -->
 
-## Contributor Quest
+## Contribution Quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
@@ -287,5 +287,3 @@ tools   docker · git · firebase · gcp · ubuntu
 
 
 <p align="center"><a href="#top"><img src="assets/footer.png" width="100%"></a></p>
-
-
