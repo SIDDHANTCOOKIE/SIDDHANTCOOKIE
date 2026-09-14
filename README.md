@@ -34,7 +34,7 @@ kinda obsessive about everything i build
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 69</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 22</a><br>
-<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme.mp3">♪ open the soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
+<sub><a href="https://cdn.jsdelivr.net/gh/SIDDHANTCOOKIE/SIDDHANTCOOKIE@main/assets/ronin-theme-v4.mp3">♪ the ronin soundtrack</a> - opens in your browser player (GitHub READMEs cannot embed audio)</sub>
 </p>
 </details>
 
