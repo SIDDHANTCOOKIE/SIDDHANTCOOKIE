@@ -237,7 +237,6 @@ def render_section(prs):
 <a id="xp-map"></a>
 
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
-<p align="center"><sub>▶ <a href="https://github.com/user-attachments/assets/ca34406c-c111-4bfc-992c-5886b480b1a3">the way of the ronin soundtrack</a> - tap to play with sound</sub></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>{total} merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
