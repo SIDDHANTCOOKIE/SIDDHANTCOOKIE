@@ -235,16 +235,15 @@ def render_section(prs):
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
 <a id="xp-map"></a>
-<p align="center"><img src="assets/xp_banner.gif" width="720"></p>
+
+https://github.com/user-attachments/assets/ca34406c-c111-4bfc-992c-5886b480b1a3
+
+<p align="center"><sub>▶ the way of the ronin soundtrack - press play, then unmute - GitHub blocks autoplay with sound</sub></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
 <b>{total} merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 {nav}
 </p>
-
-<p align="center"><b>▶ the ronin soundtrack</b><br><sub>press play, then unmute - GitHub blocks autoplay with sound</sub></p>
-
-https://github.com/user-attachments/assets/aee17682-201a-48a5-8fe9-6f6f02ac2a6a
 </details>""",
         *(path_block(p, by_path[p]) for p in ORDER),
     ]
