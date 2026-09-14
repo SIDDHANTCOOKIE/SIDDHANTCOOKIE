@@ -230,7 +230,7 @@ def render_section(prs):
     nav = " &nbsp;·&nbsp;\n".join(
         f'<a href="#user-content-xp-{p}"><b>{KANJI[p]} the way of the {p}</b> · {counts[p]}</a>'
         for p in ORDER) + "<br>"
-    parts = [f"""## My Contribution Quest
+    parts = [f"""## Contributor Quest
 
 <details name="xp" open>
 <summary><b>༄ the crossroads</b> - a contribution quest</summary>
