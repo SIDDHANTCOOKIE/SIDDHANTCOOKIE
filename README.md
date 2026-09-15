@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>82 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>102 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 57</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 16</a><br>
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 69</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 24</a><br>
 </p>
 </details>
 
@@ -80,7 +80,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>57 merged prs</b></summary>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>69 merged prs</b></summary>
 <a id="xp-chain"></a>
 <p align="center"><img src="assets/xp_chain.gif" width="560"></p>
 <p align="center"><b>web3 &amp; protocol engineering</b></p>
@@ -139,6 +139,22 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/healthyinc/bio-block/pull/105"><b>#105</b></a> This PR introduces content aware indexing and retrieval by extracting and indexing actual file content in addition to uploader metadata · feb 11, 2026</sub><br>
 <sub><a href="https://github.com/healthyinc/bio-block/pull/112"><b>#112</b></a> Problem Users cannot update document metadata (price, tags, description) or delete their documents after upload · feb 9, 2026</sub><br>
 <br>
+<sub><b>StabilityNexus/Chainvoice</b> · 5 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Chainvoice/pull/156"><b>#156</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · mar 27, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Chainvoice/pull/151"><b>#151</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 25, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Chainvoice/pull/134"><b>#134</b></a> My changes generate no new warnings or errors · mar 22, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Chainvoice/pull/81"><b>#81</b></a> This PR hardens ownership management and improves observability of admin state changes in the Chainvoice smart contract · mar 22, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Chainvoice/pull/84"><b>#84</b></a> Problem Users will get cryptic "missing revert data" error when trying to create an invoice to themselves · jan 31, 2026</sub><br>
+<br>
+<sub><b>StabilityNexus/Template-Repo-EVM-Contracts</b> · 3 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Template-Repo-EVM-Contracts/pull/26"><b>#26</b></a> I have read the [AI Usage Policy]( and this PR complies with this policy · may 28, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Template-Repo-EVM-Contracts/pull/25"><b>#25</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 26, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Template-Repo-EVM-Contracts/pull/12"><b>#12</b></a> My changes generate no new warnings or errors · mar 14, 2026</sub><br>
+<br>
+<sub><b>StabilityNexus/HammerAuctionHouse-WebUI</b> · 2 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/HammerAuctionHouse-WebUI/pull/72"><b>#72</b></a> Ensures streamlined access to the latest content, updates, and resources through the new unified Stable Viewpoints blog hub, enhancing overall… · mar 27, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/HammerAuctionHouse-WebUI/pull/71"><b>#71</b></a> Addressed Issues: Removed header quick links (Home, Auctions, Create, Dashboard) from the navbar · mar 27, 2026</sub><br>
+<br>
 <sub><b>StabilityNexus/Template-Repo-EVM-Keeper</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/Template-Repo-EVM-Keeper/pull/10"><b>#10</b></a> I have filled this PR template completely and carefully, and I understand that my PR may be closed without review otherwise.- My PR addresses a… · jun 5, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/Template-Repo-EVM-Keeper/pull/8"><b>#8</b></a> Addressed Issues: This PR creates a reusable EVM keeper template · mar 20, 2026</sub><br>
@@ -158,12 +174,18 @@ kinda obsessive about everything i build
 <sub><b>StabilityNexus/VouchMe</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/VouchMe/pull/34"><b>#34</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 26, 2026</sub><br>
 <br>
+<sub><b>StabilityNexus/Website</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/Website/pull/67"><b>#67</b></a> Added GitHub and website icons to improve link visibility · aug 10, 2026</sub><br>
+<br>
+<sub><b>StabilityNexus/hodlCoin-Website</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/hodlCoin-Website/pull/32"><b>#32</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 25, 2026</sub><br>
+<br>
 <sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>16 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>24 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -177,12 +199,26 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/35"><b>#35</b></a> All 5 events fetch successfully but every decryption silently fails (caught by console.debug) · may 4, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/4"><b>#4</b></a> @abh3po do let me know if these changes are desired This PR fixes folder navigation visibility in the drive UI · apr 15, 2026</sub><br>
 <br>
+<sub><b>formstr-hq/nostr-docs</b> · 5 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/52"><b>#52</b></a> Explicit View Rotation: If an existing view link is active, the "Generate Link" button changes to "Rotate View Access" · jul 9, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/47"><b>#47</b></a> Changed src/contexts/UserContext.tsx · jun 17, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/38"><b>#38</b></a> @abh3po all fixes applied build passes scuessfully! · may 14, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/37"><b>#37</b></a> Validates image MIME type before conversion · may 14, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/21"><b>#21</b></a> Adds export support for docs in various file types · apr 22, 2026</sub><br>
+<br>
 <sub><b>formstr-hq/nostr-polls</b> · 5 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/234"><b>#234</b></a> Feed components that utilized dataLayer.observe directly (bypassing the useEvents wrapper) were subscribing to the worker's cache before it had… · aug 22, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/215"><b>#215</b></a> File size error handling · jun 18, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/205"><b>#205</b></a> @abh3po Added full extended Nostr profile metadata support (banner, website, nip05, lud16, displayname) · jun 16, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/169"><b>#169</b></a> Currently we can't click on the post author's name to navigate to profile only clicking on picture works @abh3po this adds that · apr 18, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/166"><b>#166</b></a> @abh3po @geralt-debugs the favicon url was not pointing to the correct asset Before: After · apr 12, 2026</sub><br>
+<br>
+<sub><b>AOSSIE-Org/SocialShareButton</b> · 2 merged</sub><br>
+<sub><a href="https://github.com/AOSSIE-Org/SocialShareButton/pull/131"><b>#131</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 25, 2026</sub><br>
+<sub><a href="https://github.com/AOSSIE-Org/SocialShareButton/pull/117"><b>#117</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · mar 22, 2026</sub><br>
+<br>
+<sub><b>AOSSIE-Org/Info</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/AOSSIE-Org/Info/pull/70"><b>#70</b></a> [![Review Change Stack]( · may 14, 2026</sub><br>
 <br>
 <sub><b>AOSSIE-Org/Template-Repo</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/Template-Repo/pull/106"><b>#106</b></a> We encourage contributors to use AI tools responsibly when creating Pull Requests · may 15, 2026</sub><br>
