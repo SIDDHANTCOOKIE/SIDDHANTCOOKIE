@@ -30,10 +30,10 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>107 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>109 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 73</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 75</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 25</a><br>
 </p>
 </details>
@@ -80,12 +80,14 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>73 merged prs</b></summary>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>75 merged prs</b></summary>
 <a id="xp-chain"></a>
 <p align="center"><img src="assets/xp_chain.gif" width="560"></p>
 <p align="center"><b>web3 &amp; protocol engineering</b></p>
 <p align="center">
-<sub><b>StabilityNexus/MiniChain</b> · 47 merged</sub><br>
+<sub><b>StabilityNexus/MiniChain</b> · 49 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/149"><b>#149</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · sep 27, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/148"><b>#148</b></a> Every direct call in these tests saves and restores sys.gettrace() around it to avoid corrupting the suite's own coverage measurement · sep 27, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/147"><b>#147</b></a> Changes Pin libp2p==0.6.0 — the newest release that still ships libp2p.tools.asyncservice unchanged, so no code changes to p2p.py are needed · sep 22, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/146"><b>#146</b></a> This flag has been removed from both pr-checks.yml and update-badge.yml · sep 22, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/144"><b>#144</b></a> Addressed Issues: Adds mDNS, UPnP, and circuit relay (via --relay/--relay-addr) so a node is reachable without a tunnel, plus --bootstrap for… · sep 22, 2026</sub><br>
