@@ -30,10 +30,10 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>110 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>114 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 5</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 76</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 7</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 78</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 25</a><br>
 </p>
 </details>
@@ -59,11 +59,16 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out · <b>5 merged prs</b></summary>
+<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out · <b>7 merged prs</b></summary>
 <a id="xp-blade"></a>
 <p align="center"><img src="assets/xp_blade.gif" width="560"></p>
 <p align="center"><b>security work, merged upstream</b></p>
 <p align="center">
+<sub><b>StabilityNexus/MiniChain</b> · 3 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/154"><b>#154</b></a> Publishes the security review that found the Critical sandbox-escape vulnerability fixed in #152 (str.format() attribute-chain traversal bypassing… · sep 28, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/153"><b>#153</b></a> Adds agent-agnostic skill definitions for running a security-focused code review (skills/security-review/SKILL.md) and closing it out afterward… · sep 28, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/120"><b>#120</b></a> These fixes are essential for ensuring network stability, fund safety, and resistance against targeted DoS attacks · jul 15, 2026</sub><br>
+<br>
 <sub><b>StabilityNexus/HammerAuctionHouse-Solidity</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/HammerAuctionHouse-Solidity/pull/68"><b>#68</b></a> Addressed Issues: Fixes #66 Fixes English auction anti-sniping behavior by making deadline extension conditional instead of unconditional · mar 30, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/HammerAuctionHouse-Solidity/pull/38"><b>#38</b></a> This PR fixes critical reentrancy risks in VickreyAuction by adding OpenZeppelin ReentrancyGuard and enforcing CEI ordering · feb 6, 2026</sub><br>
@@ -72,20 +77,19 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/healthyinc/bio-block/pull/147"><b>#147</b></a> The fix introduces cryptographic signature verification using  · mar 6, 2026</sub><br>
 <sub><a href="https://github.com/healthyinc/bio-block/pull/106"><b>#106</b></a> How I solved it I fixed it by reordering the logic: now the contract zeros the balance first, then sends the ETH · feb 8, 2026</sub><br>
 <br>
-<sub><b>StabilityNexus/MiniChain</b> · 1 merged</sub><br>
-<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/120"><b>#120</b></a> These fixes are essential for ensuring network stability, fund safety, and resistance against targeted DoS attacks · jul 15, 2026</sub><br>
-<br>
 <sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
 </details>
 
 <details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>76 merged prs</b></summary>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>78 merged prs</b></summary>
 <a id="xp-chain"></a>
 <p align="center"><img src="assets/xp_chain.gif" width="560"></p>
 <p align="center"><b>web3 &amp; protocol engineering</b></p>
 <p align="center">
-<sub><b>StabilityNexus/MiniChain</b> · 50 merged</sub><br>
+<sub><b>StabilityNexus/MiniChain</b> · 52 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/155"><b>#155</b></a> Fix: wrap the handler callback invocation itself in try/except in minichain/p2p.py, log the exception, and treat it as ValidationStatus.MALFORMED… · sep 28, 2026</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/152"><b>#152</b></a> Contract code can build a dunder name at runtime via string concatenation (e.g · sep 28, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/151"><b>#151</b></a> CI workflow changes pr-checks.yml: shell: bash (pipefail) so a crash or failure actually fails the check instead of tee's exit status masking it · sep 27, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/149"><b>#149</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · sep 27, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/148"><b>#148</b></a> Every direct call in these tests saves and restores sys.gettrace() around it to avoid corrupting the suite's own coverage measurement · sep 27, 2026</sub><br>
