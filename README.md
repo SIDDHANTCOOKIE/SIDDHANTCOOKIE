@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>114 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>118 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 78</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 25</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 29</a><br>
 </p>
 </details>
 
@@ -196,12 +196,16 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>25 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>29 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
 <p align="center">
-<sub><b>formstr-hq/formstr-drive</b> · 8 merged</sub><br>
+<sub><b>formstr-hq/formstr-drive</b> · 12 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/72"><b>#72</b></a> Seekable video/PDF previews via Range requests, Drive Key UX fixes, and a rewrite of share links to real NIP-44 + naddr with relay hints (custom… · oct 1, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/71"><b>#71</b></a> Encrypted file and folder sharing, with folder sharing extracted to services/sharing/folder and left unwired from the UI (NIP-FS marks folder… · oct 1, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/70"><b>#70</b></a> Client-level dedup by unencryptedFileHash, plus a BUD-06 upload-size precheck before streaming and a CORS-misdiagnosis fix · oct 1, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/69"><b>#69</b></a> NIP-FS single-blob upload/download (segment cipher, dual-read) · oct 1, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/63"><b>#63</b></a> Multi-server uploads, honest failure reporting, background Android uploads · sep 19, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/62"><b>#62</b></a> Fix drive-key mint hazard: read legacy format, never mint over an existing key · sep 15, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/61"><b>#61</b></a> Rewrites file preview generation to use gifenc for animated GIF thumbnails instead of @ffmpeg/, extracts the fetch/cache logic from FileCard into… · sep 15, 2026</sub><br>
