@@ -30,8 +30,8 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>118 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 4</a> &nbsp;·&nbsp;
+<b>119 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 5</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 78</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 29</a><br>
@@ -39,7 +39,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>心 the way of the mind</b> - ai that shows its work · <b>4 merged prs</b></summary>
+<summary><b>心 the way of the mind</b> - ai that shows its work · <b>5 merged prs</b></summary>
 <a id="xp-mind"></a>
 <p align="center"><img src="assets/xp_mind.gif" width="560"></p>
 <p align="center"><b>skillcheck, paperly &amp; research</b></p>
@@ -53,6 +53,9 @@ kinda obsessive about everything i build
 <br>
 <sub><b>SIDDHANTCOOKIE/DocuFlow</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/DocuFlow/pull/1"><b>#1</b></a> Updated index.html to add a Vite module entry script (&lt;script type="module" src="/index.tsx"&gt;&lt;/script&gt;) and removed the browser importmap that was… · feb 13, 2026</sub><br>
+<br>
+<sub><b>SIDDHANTCOOKIE/wot-pay</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/47"><b>#47</b></a> Adds the demo video link to the top of the README and replaces the 'recording is not linked yet' line · oct 5, 2026</sub><br>
 <br>
 <sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
