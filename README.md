@@ -30,10 +30,10 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>119 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>120 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 5</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 7</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 78</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 29</a><br>
 </p>
 </details>
@@ -85,12 +85,13 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>78 merged prs</b></summary>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>79 merged prs</b></summary>
 <a id="xp-chain"></a>
 <p align="center"><img src="assets/xp_chain.gif" width="560"></p>
 <p align="center"><b>web3 &amp; protocol engineering</b></p>
 <p align="center">
-<sub><b>StabilityNexus/MiniChain</b> · 52 merged</sub><br>
+<sub><b>StabilityNexus/MiniChain</b> · 53 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/162"><b>#162</b></a> This update is limited to the README and does not change any exported or public functionality · oct 15, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/155"><b>#155</b></a> Fix: wrap the handler callback invocation itself in try/except in minichain/p2p.py, log the exception, and treat it as ValidationStatus.MALFORMED… · sep 28, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/152"><b>#152</b></a> Contract code can build a dunder name at runtime via string concatenation (e.g · sep 28, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/151"><b>#151</b></a> CI workflow changes pr-checks.yml: shell: bash (pipefail) so a crash or failure actually fails the check instead of tee's exit status masking it · sep 27, 2026</sub><br>
