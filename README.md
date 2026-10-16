@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>120 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>121 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 5</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 29</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 30</a><br>
 </p>
 </details>
 
@@ -200,7 +200,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>29 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>30 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -219,7 +219,8 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/35"><b>#35</b></a> All 5 events fetch successfully but every decryption silently fails (caught by console.debug) · may 4, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/4"><b>#4</b></a> @abh3po do let me know if these changes are desired This PR fixes folder navigation visibility in the drive UI · apr 15, 2026</sub><br>
 <br>
-<sub><b>formstr-hq/nostr-docs</b> · 5 merged</sub><br>
+<sub><b>formstr-hq/nostr-docs</b> · 6 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-docs/pull/73"><b>#73</b></a> Adds font family selection to the editor toolbar · oct 16, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/52"><b>#52</b></a> Explicit View Rotation: If an existing view link is active, the "Generate Link" button changes to "Rotate View Access" · jul 9, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/47"><b>#47</b></a> Changed src/contexts/UserContext.tsx · jun 17, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/38"><b>#38</b></a> @abh3po all fixes applied build passes scuessfully! · may 14, 2026</sub><br>
