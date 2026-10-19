@@ -30,8 +30,8 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>123 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 5</a> &nbsp;·&nbsp;
+<b>125 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 31</a><br>
@@ -39,11 +39,15 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>心 the way of the mind</b> - ai that shows its work · <b>5 merged prs</b></summary>
+<summary><b>心 the way of the mind</b> - ai that shows its work · <b>7 merged prs</b></summary>
 <a id="xp-mind"></a>
 <p align="center"><img src="assets/xp_mind.gif" width="560"></p>
 <p align="center"><b>skillcheck, paperly &amp; research</b></p>
 <p align="center">
+<sub><b>SIDDHANTCOOKIE/PocketBuff</b> · 2 merged</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/PocketBuff/pull/10"><b>#10</b></a> Verified Reproduced and fixed #1 on PowerShell 5.1.26100 · oct 19, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/PocketBuff/pull/8"><b>#8</b></a> Approvals show the real change: writefile computes the diff against the file on disk before asking, so full-file writes show a diff on the phone,… · oct 19, 2026</sub><br>
+<br>
 <sub><b>SIDDHANTCOOKIE/SkillCheck</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/SkillCheck/pull/2"><b>#2</b></a> Wired into graph.py so hook/install-triggered files are promoted to loadstage "unattended" before capability chains build · aug 14, 2026</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/SkillCheck/pull/1"><b>#1</b></a> Add interlinked README, AO usage doc, and design doc · aug 13, 2026</sub><br>
