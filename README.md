@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>125 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>126 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 31</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 32</a><br>
 </p>
 </details>
 
@@ -207,7 +207,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>31 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>32 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -262,6 +262,9 @@ kinda obsessive about everything i build
 <br>
 <sub><b>kyverno/policy-reporter</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/kyverno/policy-reporter/pull/1658"><b>#1658</b></a> Add an optional list to the core Policy Reporter Deployment so installations can configure Pod hostname mappings · oct 19, 2026</sub><br>
+<br>
+<sub><b>kyverno/policy-reporter-ui</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/kyverno/policy-reporter-ui/pull/961"><b>#961</b></a> Adds renewal before API authentication and UI validation discard an expired profile · oct 21, 2026</sub><br>
 <br>
 <sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
