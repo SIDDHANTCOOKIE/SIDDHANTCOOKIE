@@ -30,8 +30,8 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>127 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 7</a> &nbsp;·&nbsp;
+<b>138 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 18</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 33</a><br>
@@ -39,11 +39,25 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>心 the way of the mind</b> - ai that shows its work · <b>7 merged prs</b></summary>
+<summary><b>心 the way of the mind</b> - ai that shows its work · <b>18 merged prs</b></summary>
 <a id="xp-mind"></a>
 <p align="center"><img src="assets/xp_mind.gif" width="560"></p>
 <p align="center"><b>skillcheck, paperly &amp; research</b></p>
 <p align="center">
+<sub><b>SIDDHANTCOOKIE/wot-pay</b> · 12 merged</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/58"><b>#58</b></a> Changes Relay-sized messages Release and payout messages no longer carry the mint preview · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/57"><b>#57</b></a> Change At each step that needs someone, wot-pay also sends them an ordinary NIP-17 chat message · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/56"><b>#56</b></a> Change VITENEWTRADESPAUSED=true: Stops: new listings (pausing your own listing still works), quote requests, payer offers and accepts, and… · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/55"><b>#55</b></a> What changes NIP-07 extensions and NIP-46 remote signers with NIP-44 can trade · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/54"><b>#54</b></a> 316 tests pass, and npm run build passes · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/53"><b>#53</b></a> Restore loads the newest full snapshot and overlays every trade whose own backup is newer, keeping the higher revision of each record · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/52"><b>#52</b></a> "Merchant received it" adds the requester's signature to that release and settles it at the mint, after a confirmation dialog · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/51"><b>#51</b></a> PrepareMint builds outputs that are already escrow-locked: 2-of-3, SIGALL, refund timelock · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/50"><b>#50</b></a> What changes Agreements fix refundAfter = quote expiry + 14 days · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/49"><b>#49</b></a> What changes Two commitments instead of proposal + two accepts · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/48"><b>#48</b></a> Implemented: Browse-first navigation, removable example offer, opt-in camera, trust/price sorting, filters and collapsed legacy offers · oct 22, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/47"><b>#47</b></a> Adds the demo video link to the top of the README and replaces the 'recording is not linked yet' line · oct 5, 2026</sub><br>
+<br>
 <sub><b>SIDDHANTCOOKIE/PocketBuff</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/PocketBuff/pull/10"><b>#10</b></a> Verified Reproduced and fixed #1 on PowerShell 5.1.26100 · oct 19, 2026</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/PocketBuff/pull/8"><b>#8</b></a> Approvals show the real change: writefile computes the diff against the file on disk before asking, so full-file writes show a diff on the phone,… · oct 19, 2026</sub><br>
@@ -57,9 +71,6 @@ kinda obsessive about everything i build
 <br>
 <sub><b>SIDDHANTCOOKIE/DocuFlow</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/DocuFlow/pull/1"><b>#1</b></a> Updated index.html to add a Vite module entry script (&lt;script type="module" src="/index.tsx"&gt;&lt;/script&gt;) and removed the browser importmap that was… · feb 13, 2026</sub><br>
-<br>
-<sub><b>SIDDHANTCOOKIE/wot-pay</b> · 1 merged</sub><br>
-<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/47"><b>#47</b></a> Adds the demo video link to the top of the README and replaces the 'recording is not linked yet' line · oct 5, 2026</sub><br>
 <br>
 <sub><a href="#user-content-xp-map">↩ return to the crossroads</a></sub>
 </p>
