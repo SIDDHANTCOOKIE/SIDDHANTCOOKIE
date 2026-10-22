@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>126 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>127 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 7</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 32</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 33</a><br>
 </p>
 </details>
 
@@ -207,7 +207,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>32 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>33 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -253,6 +253,9 @@ kinda obsessive about everything i build
 <br>
 <sub><b>AOSSIE-Org/Template-Repo-NextJS</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/Template-Repo-NextJS/pull/8"><b>#8</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 26, 2026</sub><br>
+<br>
+<sub><b>NethermindEth/nethermind</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/NethermindEth/nethermind/pull/14992"><b>#14992</b></a> Changes Set the shared verification-work floor to 100000, while retaining a named 300000 default in TxPoolConfig and its configuration metadata · oct 22, 2026</sub><br>
 <br>
 <sub><b>formstr-hq/nostr-calendar</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-calendar/pull/86"><b>#86</b></a> Implements issue #49 by introducing notification preferences at the calendar-list level, while preserving existing behavior and keeping event-level… · apr 16, 2026</sub><br>
