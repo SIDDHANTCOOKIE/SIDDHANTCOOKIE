@@ -30,8 +30,8 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>138 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
-<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 18</a> &nbsp;·&nbsp;
+<b>140 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 20</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 33</a><br>
@@ -39,12 +39,14 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>心 the way of the mind</b> - ai that shows its work · <b>18 merged prs</b></summary>
+<summary><b>心 the way of the mind</b> - ai that shows its work · <b>20 merged prs</b></summary>
 <a id="xp-mind"></a>
 <p align="center"><img src="assets/xp_mind.gif" width="560"></p>
 <p align="center"><b>skillcheck, paperly &amp; research</b></p>
 <p align="center">
-<sub><b>SIDDHANTCOOKIE/wot-pay</b> · 12 merged</sub><br>
+<sub><b>SIDDHANTCOOKIE/wot-pay</b> · 14 merged</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/61"><b>#61</b></a> Stacked on #60 because both change App.jsx · oct 23, 2026</sub><br>
+<sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/60"><b>#60</b></a> Part 1 of 2 for the "support button and notices" change · oct 23, 2026</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/58"><b>#58</b></a> Changes Relay-sized messages Release and payout messages no longer carry the mint preview · oct 22, 2026</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/57"><b>#57</b></a> Change At each step that needs someone, wot-pay also sends them an ordinary NIP-17 chat message · oct 22, 2026</sub><br>
 <sub><a href="https://github.com/SIDDHANTCOOKIE/wot-pay/pull/56"><b>#56</b></a> Change VITENEWTRADESPAUSED=true: Stops: new listings (pausing your own listing still works), quote requests, payer offers and accepts, and… · oct 22, 2026</sub><br>
