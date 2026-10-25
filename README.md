@@ -30,9 +30,9 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>140 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>141 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 20</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 8</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 33</a><br>
 </p>
@@ -79,12 +79,13 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out · <b>8 merged prs</b></summary>
+<summary><b>刃 the way of the blade</b> - cutting vulnerabilities out · <b>9 merged prs</b></summary>
 <a id="xp-blade"></a>
 <p align="center"><img src="assets/xp_blade.gif" width="560"></p>
 <p align="center"><b>security work, merged upstream</b></p>
 <p align="center">
-<sub><b>StabilityNexus/MiniChain</b> · 3 merged</sub><br>
+<sub><b>StabilityNexus/MiniChain</b> · 4 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/MiniChain/pull/173"><b>#173</b></a> It lists each finding from that audit, what was changed, and how it was tested · oct 25, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/154"><b>#154</b></a> Publishes the security review that found the Critical sandbox-escape vulnerability fixed in #152 (str.format() attribute-chain traversal bypassing… · sep 28, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/153"><b>#153</b></a> Adds agent-agnostic skill definitions for running a security-focused code review (skills/security-review/SKILL.md) and closing it out afterward… · sep 28, 2026</sub><br>
 <sub><a href="https://github.com/StabilityNexus/MiniChain/pull/120"><b>#120</b></a> These fixes are essential for ensuring network stability, fund safety, and resistance against targeted DoS attacks · jul 15, 2026</sub><br>
