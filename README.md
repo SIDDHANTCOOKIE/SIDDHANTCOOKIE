@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>141 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>146 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 20</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 33</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 38</a><br>
 </p>
 </details>
 
@@ -221,12 +221,17 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>33 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>38 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
 <p align="center">
-<sub><b>formstr-hq/formstr-drive</b> · 12 merged</sub><br>
+<sub><b>formstr-hq/formstr-drive</b> · 17 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/89"><b>#89</b></a> What changes A file is a duplicate only if the same bytes are already in the drive on the server being uploaded to and still live there · oct 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/88"><b>#88</b></a> Stacked on #85 (base is fix/multi-account-isolation) · oct 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/85"><b>#85</b></a> Old device-wide values were migrated to A on first load · oct 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/83"><b>#83</b></a> Stacked on #82: the base is fix/drive-key-sync · oct 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/82"><b>#82</b></a> Problem New accounts got stuck forever on "Couldn't reach enough of the network…", and a Drive Key was never created · oct 27, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/72"><b>#72</b></a> Seekable video/PDF previews via Range requests, Drive Key UX fixes, and a rewrite of share links to real NIP-44 + naddr with relay hints (custom… · oct 1, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/71"><b>#71</b></a> Encrypted file and folder sharing, with folder sharing extracted to services/sharing/folder and left unwired from the UI (NIP-FS marks folder… · oct 1, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/70"><b>#70</b></a> Client-level dedup by unencryptedFileHash, plus a BUD-06 upload-size precheck before streaming and a CORS-misdiagnosis fix · oct 1, 2026</sub><br>
