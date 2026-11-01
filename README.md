@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>146 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>147 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 20</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 38</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 39</a><br>
 </p>
 </details>
 
@@ -221,12 +221,13 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>38 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>39 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
 <p align="center">
-<sub><b>formstr-hq/formstr-drive</b> · 17 merged</sub><br>
+<sub><b>formstr-hq/formstr-drive</b> · 18 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/formstr-drive/pull/92"><b>#92</b></a> Removed from defaultRelays and APPRELAYS · nov 1, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/89"><b>#89</b></a> What changes A file is a duplicate only if the same bytes are already in the drive on the server being uploaded to and still live there · oct 27, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/88"><b>#88</b></a> Stacked on #85 (base is fix/multi-account-isolation) · oct 27, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/85"><b>#85</b></a> Old device-wide values were migrated to A on first load · oct 27, 2026</sub><br>
