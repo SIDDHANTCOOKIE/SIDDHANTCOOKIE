@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>147 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>148 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 20</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 39</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 40</a><br>
 </p>
 </details>
 
@@ -221,7 +221,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>39 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>40 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -254,7 +254,8 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/37"><b>#37</b></a> Validates image MIME type before conversion · may 14, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/21"><b>#21</b></a> Adds export support for docs in various file types · apr 22, 2026</sub><br>
 <br>
-<sub><b>formstr-hq/nostr-polls</b> · 5 merged</sub><br>
+<sub><b>formstr-hq/nostr-polls</b> · 6 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/259"><b>#259</b></a> Changes Profile (UserNotesFeed): separate kind 6 filter (limit 50) so a heavy reposter doesn't crowd out their notes · nov 7, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/234"><b>#234</b></a> Feed components that utilized dataLayer.observe directly (bypassing the useEvents wrapper) were subscribing to the worker's cache before it had… · aug 22, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/215"><b>#215</b></a> File size error handling · jun 18, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-polls/pull/205"><b>#205</b></a> @abh3po Added full extended Nostr profile metadata support (banner, website, nip05, lud16, displayname) · jun 16, 2026</sub><br>
