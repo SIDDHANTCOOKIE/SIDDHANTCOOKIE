@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>151 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>153 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 23</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 40</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 42</a><br>
 </p>
 </details>
 
@@ -226,7 +226,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>40 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>42 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -251,6 +251,15 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/35"><b>#35</b></a> All 5 events fetch successfully but every decryption silently fails (caught by console.debug) · may 4, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/formstr-drive/pull/4"><b>#4</b></a> @abh3po do let me know if these changes are desired This PR fixes folder navigation visibility in the drive UI · apr 15, 2026</sub><br>
 <br>
+<sub><b>formstr-hq/nostr-polls</b> · 7 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/260"><b>#260</b></a> What Replaces the 2px bar at the top of feeds with a loader that traces the block header's curved bottom edge: a thin line just outside the curve… · nov 11, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/259"><b>#259</b></a> Changes Profile (UserNotesFeed): separate kind 6 filter (limit 50) so a heavy reposter doesn't crowd out their notes · nov 7, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/234"><b>#234</b></a> Feed components that utilized dataLayer.observe directly (bypassing the useEvents wrapper) were subscribing to the worker's cache before it had… · aug 22, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/215"><b>#215</b></a> File size error handling · jun 18, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/205"><b>#205</b></a> @abh3po Added full extended Nostr profile metadata support (banner, website, nip05, lud16, displayname) · jun 16, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/169"><b>#169</b></a> Currently we can't click on the post author's name to navigate to profile only clicking on picture works @abh3po this adds that · apr 18, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/166"><b>#166</b></a> @abh3po @geralt-debugs the favicon url was not pointing to the correct asset Before: After · apr 12, 2026</sub><br>
+<br>
 <sub><b>formstr-hq/nostr-docs</b> · 6 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/73"><b>#73</b></a> Adds font family selection to the editor toolbar · oct 16, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/52"><b>#52</b></a> Explicit View Rotation: If an existing view link is active, the "Generate Link" button changes to "Rotate View Access" · jul 9, 2026</sub><br>
@@ -259,20 +268,13 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/37"><b>#37</b></a> Validates image MIME type before conversion · may 14, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/21"><b>#21</b></a> Adds export support for docs in various file types · apr 22, 2026</sub><br>
 <br>
-<sub><b>formstr-hq/nostr-polls</b> · 6 merged</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/259"><b>#259</b></a> Changes Profile (UserNotesFeed): separate kind 6 filter (limit 50) so a heavy reposter doesn't crowd out their notes · nov 7, 2026</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/234"><b>#234</b></a> Feed components that utilized dataLayer.observe directly (bypassing the useEvents wrapper) were subscribing to the worker's cache before it had… · aug 22, 2026</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/215"><b>#215</b></a> File size error handling · jun 18, 2026</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/205"><b>#205</b></a> @abh3po Added full extended Nostr profile metadata support (banner, website, nip05, lud16, displayname) · jun 16, 2026</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/169"><b>#169</b></a> Currently we can't click on the post author's name to navigate to profile only clicking on picture works @abh3po this adds that · apr 18, 2026</sub><br>
-<sub><a href="https://github.com/formstr-hq/nostr-polls/pull/166"><b>#166</b></a> @abh3po @geralt-debugs the favicon url was not pointing to the correct asset Before: After · apr 12, 2026</sub><br>
+<sub><b>AOSSIE-Org/Info</b> · 2 merged</sub><br>
+<sub><a href="https://github.com/AOSSIE-Org/Info/pull/80"><b>#80</b></a> Adds a gsoc-final-report skill under Programs/GoogleSummerOfCode/Skills/ · nov 11, 2026</sub><br>
+<sub><a href="https://github.com/AOSSIE-Org/Info/pull/70"><b>#70</b></a> [![Review Change Stack]( · may 14, 2026</sub><br>
 <br>
 <sub><b>AOSSIE-Org/SocialShareButton</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/SocialShareButton/pull/131"><b>#131</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 25, 2026</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/SocialShareButton/pull/117"><b>#117</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · mar 22, 2026</sub><br>
-<br>
-<sub><b>AOSSIE-Org/Info</b> · 1 merged</sub><br>
-<sub><a href="https://github.com/AOSSIE-Org/Info/pull/70"><b>#70</b></a> [![Review Change Stack]( · may 14, 2026</sub><br>
 <br>
 <sub><b>AOSSIE-Org/Template-Repo</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/Template-Repo/pull/106"><b>#106</b></a> We encourage contributors to use AI tools responsibly when creating Pull Requests · may 15, 2026</sub><br>
