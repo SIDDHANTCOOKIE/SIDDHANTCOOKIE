@@ -30,10 +30,10 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>153 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>154 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 23</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 79</a> &nbsp;·&nbsp;
+<a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 80</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 42</a><br>
 </p>
 </details>
@@ -111,7 +111,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>79 merged prs</b></summary>
+<summary><b>鎖 the way of the chain</b> - a blockchain, built from scratch · <b>80 merged prs</b></summary>
 <a id="xp-chain"></a>
 <p align="center"><img src="assets/xp_chain.gif" width="560"></p>
 <p align="center"><b>web3 &amp; protocol engineering</b></p>
@@ -211,6 +211,9 @@ kinda obsessive about everything i build
 <br>
 <sub><b>StabilityNexus/IdentityTokens-EVM-Frontend</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/98"><b>#98</b></a> Check one of the checkboxes below: This PR does not contain AI-generated code at all · apr 4, 2026</sub><br>
+<br>
+<sub><b>StabilityNexus/StableViewpoints</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/StabilityNexus/StableViewpoints/pull/107"><b>#107</b></a> Adds an article about MiniChain, a complete blockchain in about 2,800 lines of Python · nov 19, 2026</sub><br>
 <br>
 <sub><b>StabilityNexus/VouchMe</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/StabilityNexus/VouchMe/pull/34"><b>#34</b></a> Addressed Issues: This PR introduces an automated workflow that labels pull requests with merge conflicts using eps1lon/actions-label-merge-conflict · mar 26, 2026</sub><br>
