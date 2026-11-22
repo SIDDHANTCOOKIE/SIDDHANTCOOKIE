@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>154 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>155 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 23</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 80</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 42</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 43</a><br>
 </p>
 </details>
 
@@ -229,7 +229,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>42 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>43 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -293,6 +293,9 @@ kinda obsessive about everything i build
 <br>
 <sub><b>formstr-hq/nostr-forms</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-forms/pull/481"><b>#481</b></a> This replaces the old external Geyser links with a smoother in-app NIP-57/LNURL flow · may 7, 2026</sub><br>
+<br>
+<sub><b>hydra-db/selfgraph</b> · 1 merged</sub><br>
+<sub><a href="https://github.com/hydra-db/selfgraph/pull/461"><b>#461</b></a> Kuzu now keeps an entity key table (K) and implements entitiesmatching on it, in Python and TypeScript · nov 22, 2026</sub><br>
 <br>
 <sub><b>kyverno/policy-reporter</b> · 1 merged</sub><br>
 <sub><a href="https://github.com/kyverno/policy-reporter/pull/1658"><b>#1658</b></a> Add an optional list to the core Policy Reporter Deployment so installations can configure Pod hostname mappings · oct 19, 2026</sub><br>
