@@ -30,11 +30,11 @@ kinda obsessive about everything i build
 <p align="center"><img src="assets/xp_banner.gif" width="720"></p>
 <p align="center">
 <sub>four paths, four kinds of work - every merged pull request lives here.<br>
-<b>155 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
+<b>159 merged prs</b> and counting; the quest renews itself with each new merge.</sub><br><br>
 <a href="#user-content-xp-mind"><b>心 the way of the mind</b> · 23</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-blade"><b>刃 the way of the blade</b> · 9</a> &nbsp;·&nbsp;
 <a href="#user-content-xp-chain"><b>鎖 the way of the chain</b> · 80</a> &nbsp;·&nbsp;
-<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 43</a><br>
+<a href="#user-content-xp-scroll"><b>巻 the way of the scroll</b> · 47</a><br>
 </p>
 </details>
 
@@ -229,7 +229,7 @@ kinda obsessive about everything i build
 </details>
 
 <details name="xp">
-<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>43 merged prs</b></summary>
+<summary><b>巻 the way of the scroll</b> - the formstr suite, shipped · <b>47 merged prs</b></summary>
 <a id="xp-scroll"></a>
 <p align="center"><img src="assets/xp_scroll.gif" width="560"></p>
 <p align="center"><b>formstr, aossie &amp; community</b></p>
@@ -270,6 +270,12 @@ kinda obsessive about everything i build
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/38"><b>#38</b></a> @abh3po all fixes applied build passes scuessfully! · may 14, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/37"><b>#37</b></a> Validates image MIME type before conversion · may 14, 2026</sub><br>
 <sub><a href="https://github.com/formstr-hq/nostr-docs/pull/21"><b>#21</b></a> Adds export support for docs in various file types · apr 22, 2026</sub><br>
+<br>
+<sub><b>formstr-hq/sheets</b> · 4 merged</sub><br>
+<sub><a href="https://github.com/formstr-hq/sheets/pull/6"><b>#6</b></a> Ids containing :, ( or ) are not supported in id tokens · nov 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/sheets/pull/5"><b>#5</b></a> The editor owns saving, remote updates and exports around it · nov 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/sheets/pull/4"><b>#4</b></a> What this does A canvas grid package (packages/sheets-grid) and the editing features around it, for big sheets: formulas typed in cells with… · nov 27, 2026</sub><br>
+<sub><a href="https://github.com/formstr-hq/sheets/pull/3"><b>#3</b></a> Part 1 of 4 of a stacked series (1 storage, 2 big-sheet grid, 3 own grid everywhere and FortuneSheet removed, 4 formulas by id) · nov 27, 2026</sub><br>
 <br>
 <sub><b>AOSSIE-Org/Info</b> · 2 merged</sub><br>
 <sub><a href="https://github.com/AOSSIE-Org/Info/pull/80"><b>#80</b></a> Adds a gsoc-final-report skill under Programs/GoogleSummerOfCode/Skills/ · nov 11, 2026</sub><br>
